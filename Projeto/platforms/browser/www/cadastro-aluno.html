@@ -1,0 +1,106 @@
+<!DOCTYPE HTML>
+<!--
+	Spectral by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Cadastro Aluno</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body class="landing">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						
+	<h1><a href="index.html">------- JINIFF -------</a></h1>
+						<nav id="nav">
+							<ul>
+								<li class="special">
+									<a href="#menu" class="menuToggle"><span>Menu</span></a>
+									<div id="menu">
+										<ul>
+											<li><a href="index.html">Home</a></li>
+											<li><a href="login.html">Login de Alunos</a></li>
+											<li><a href="cadastro-organizador.html">Login Adm</a></li>
+										
+	
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- One -->
+					<section id="one" class="wrapper style1 special">
+						<div class="inner">
+							<header class="major">
+								<h2>Cadastro de Alunos</h2>
+								<label>
+                    <input type="text" value="" name="firstname" required="required" placeholder= "Digite seu nome..." />
+                </label>
+                <label>	
+                    <input type="text" value="" name="lastname" required="required" placeholder= "Digite seu sobrenome..." />
+                </label>
+                <label>		 
+                    <input type="text" value="" required="required" name="gender" placeholder= "Digite seu genero..."/>  
+                </label>
+                <label>
+                    <input type="text" id="data" value="" name="bday" OnKeyUp="mascaraData(this);" maxlength="10" required="required" placeholder= "dia / mes / ano" />
+                </label>
+                <label>
+                    <input type="text" value="" name="course" required="required" placeholder= "Digite seu curso..." />
+                </label>
+                <label>
+                    <input type="text" maxlength="1" value="" name="ano" required="required" placeholder= "S&eacute;rie ..." />
+                </label>
+                <label>
+                    <input type="text" value="" name="numero" onkeypress="mascara(this, '### #-####-####')" maxlength="15" required="required" placeholder= "Digite seu Whatsapp..." />
+                </label>
+                <label>
+                    <input type="email" value="" name="email" required="required" placeholder= "Digite seu e-mail..." />
+                </label>
+                <label>
+                    <input type="password" value="" name="password" required="required" placeholder="Digite sua senha..." />
+                </label>
+
+					<input class="botao" type="submit" value="Enviar" name="cadastrarAluno" />
+							</header>
+							
+						</div>
+					</section>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="icons">
+							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+						</ul>
+						<ul class="copyright">
+							<li>&copy; JINIFF</li>					</ul>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
